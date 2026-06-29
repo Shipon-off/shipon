@@ -18,6 +18,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Favicon and App Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
 </head>
 <body>
     <!-- Reading Progress Bar -->
@@ -37,7 +44,11 @@
     <!-- Navigation -->
     <header class="header" id="header">
         <nav class="nav-container">
-            <a href="index.html" class="logo">
+            <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.5rem;">
+                <svg width="32" height="32" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M 44 20 H 16 V 50 H 44 V 80 H 16" />
+                    <path d="M 56 20 V 80 M 84 20 V 80 M 56 50 H 84" stroke="var(--primary-color)" />
+                </svg>
                 <span class="logo-text">Shipon<span class="text-primary">.</span></span>
             </a>
             
@@ -142,7 +153,8 @@
             <div class="footer-connect">
                 <h4>Connect</h4>
                 <a href="mailto:offlineshipon@gmail.com">offlineshipon@gmail.com</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn Placeholder</a>
+                <a href="https://www.linkedin.com/in/md-shipon-hossain-off" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/offshipon" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </div>
         <div class="footer-bottom">
